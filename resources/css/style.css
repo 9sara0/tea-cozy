@@ -47,3 +47,21 @@ header nav span {
   width: 100%;
   background-color: black;
 }
+
+#featured {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.teas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
