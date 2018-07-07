@@ -8,16 +8,15 @@ body {
   text-align: center;
 }
 
-header {
-  display: flex;
+header.flex-container {
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
-  align-items: center;
   justify-content: space-between;
   background-color: black;
+
 }
 
 a {
@@ -29,17 +28,26 @@ a {
   padding-left: 10px;
 }
 
+
 header nav span {
   padding: 15px;
 }
 
+main {
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 #mission {
-  margin: 0 auto;
   height: 700px;
   width: 1200px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(../images/background.jpg);
 }
 
@@ -49,15 +57,7 @@ header nav span {
 }
 
 #featured {
-  margin: 0 auto;
   width: 1000px;
-}
-
-.teas {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .tea img {
@@ -67,7 +67,6 @@ header nav span {
 }
 
 #locations {
-  margin: 0 auto;
   background-image: url(../images/locations-background.jpg);
   height: 500px;
   width: 1200px;
@@ -79,14 +78,7 @@ header nav span {
   padding-top: 50px;
 }
 
-.locations {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .location {
-  display: flex;
   flex-direction: column;
   width: 300px;
   margin-right: 40px;
