@@ -97,3 +97,8 @@ header nav span {
 #contact {
   height: 200px;
 }
+
+footer {
+  margin: 20px;
+  text-align: left;
+}
