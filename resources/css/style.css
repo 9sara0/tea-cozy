@@ -65,3 +65,31 @@ header nav span {
   height: 200px;
   margin: 10px;
 }
+
+#locations {
+  margin: 0 auto;
+  background-image: url(../images/locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+#locations h2 {
+  padding: 15px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 40px;
+  opacity: 1;
+  background-color: black;
+}
