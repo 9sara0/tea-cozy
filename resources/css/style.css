@@ -93,3 +93,7 @@ header nav span {
   opacity: 1;
   background-color: black;
 }
+
+#contact {
+  height: 200px;
+}
